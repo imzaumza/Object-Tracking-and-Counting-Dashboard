@@ -4,6 +4,7 @@
 We adore statistics and graphs and figures as AI engineers! So, why not project the inference data onto a platform in order to better understand the inference? When a model is deployed on the edge for monitoring, it necessitates extensive frontend and backend development in addition to deep learning efforts – from gathering live data to showing accurate results. So I decided to build a small-scale video analytics program to learn what features would be valuable for such a product and what restrictions might exist.
 
 ## :framed_picture: Demo
+https://user-images.githubusercontent.com/37156032/160282244-42f6bd8c-bfc8-47af-8973-d3d199140e44.mp4
 
 
 ## :key: Features
