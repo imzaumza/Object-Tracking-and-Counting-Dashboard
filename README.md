@@ -1,15 +1,12 @@
-<h1 align="center">Video Analytics Tool using YoloV5 and Streamlit</h1>
+<h1 align="center">Object Tracking and Counting Dashboard</h1>
 
 ## :innocent: Motivation
-As AI engineers, we love data and we love to see graphs and numbers! So why not project the inference data on some platform to understand the inference better? When a model is deployed on the edge for some kind of monitoring, it takes up rigorous amount of frontend and backend developement apart from deep learning efforts — from getting the live data to displaying the correct output. So, I wanted to replicate a small scale video analytics tool and understand what all feature would be useful for such a tool and what could be the limitations?
+We adore statistics and graphs and figures as AI engineers! So, why not project the inference data onto a platform in order to better understand the inference? When a model is deployed on the edge for monitoring, it necessitates extensive frontend and backend development in addition to deep learning efforts – from gathering live data to showing accurate results. So I decided to build a small-scale video analytics program to learn what features would be valuable for such a product and what restrictions might exist.
 
 ## :framed_picture: Demo
 
-https://user-images.githubusercontent.com/37156032/160282244-42f6bd8c-bfc8-47af-8973-d3d199140e44.mp4
 
 ## :key: Features
-
-<h3>For detailed insights, do check out my <a href="https://sahilchachra.medium.com/video-analytics-dashboard-for-yolov5-and-deepsort-c5994461cb44">Medium Blog</a></h3>
 
 <ol>
     <li>Choose input source - Local, RTSP or Webcam</li>
@@ -39,15 +36,7 @@ https://user-images.githubusercontent.com/37156032/160282244-42f6bd8c-bfc8-47af-
     <li>Added drive link to download DeepSort checkpoint file (45Mb).</li>
 </ol>
 
-## :exploding_head: FAQs
-<ol>
-    <li><a href="https://github.com/SahilChachra/Video-Analytics-Dashboard/issues/5">How to use custom Yolov5 weight or DeepSort checkpoint file?</a></li>
-    <li><a href="https://github.com/SahilChachra/Video-Analytics-Dashboard/issues/3">Unable to use webcam</a></li>
-    <li><a href="https://github.com/ultralytics/yolov5/issues/6948">AttributeError: 'Upsample' object has no attribute 'recompute_scale_factor'</a></li>
-</ol>
-
-## :heart: Extras
-Do checkout the Medium article and give this repo a :star:
-
 ## Note
 The input video should be in same folder where app.py is. If you want to deploy the app in cloud and use it as a webapp then - download the user uploaded video to temporary folder and pass the path and video name to the respective function in app.py . This is Streamlit bug. Check <a href="https://stackoverflow.com/questions/65612750/how-can-i-specify-the-exact-folder-in-streamlit-for-the-uploaded-file-to-be-save">Stackoverflow</a>.
+
+Reference / Credit: https://github.com/SahilChachra/Video-Analytics-Dashboard
